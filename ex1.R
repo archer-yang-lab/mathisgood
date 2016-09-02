@@ -1,4 +1,4 @@
-KERE <- function(x, y, kern,
+KERE <- function(x, y, kern, big = 10e9,
                  lambda = NULL, eps = 1e-08, maxit = 1e+04,
                  omega = 0.5, gamma = 1e-06,
                  option = c("fast","normal")) {
